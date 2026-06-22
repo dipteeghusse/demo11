@@ -19,7 +19,7 @@ class AcademicPaper(BaseModel):
     authors: list
     published: str
     arxiv_id: str
-    url: str
+    url: str | None
     primary_category: str
     abstract: str
 
